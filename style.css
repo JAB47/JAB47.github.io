@@ -46,6 +46,13 @@ p{
 
 #socials__img{
     width: 30px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+#socials__image{
+    
+    
+
 }
 #css{
     width: 75px;
@@ -56,6 +63,8 @@ img{
 }
 #project{
     width: 100px;
+    border-radius: 50%;
+    
     
 }
 #links{
@@ -65,4 +74,6 @@ img{
 }
 #design{
     width: 155px;
+    border-radius: 50%;
+    border: 2px solid;
 }
