@@ -40,7 +40,8 @@ p{
     font-size: 1.3rem;
 }
 #skills{
-    text-align: center;
+    font-size: larger;
+    font-weight: bold;
     
 }
 
@@ -53,9 +54,6 @@ p{
     
     
 
-}
-#css{
-    width: 75px;
 }
 img{
     width: 100px;
