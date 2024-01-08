@@ -40,10 +40,10 @@ p{
     font-size: 1.3rem;
 }
 #skills{
-    font-size: larger;
-    font-weight: bold;
+    text-align: center;
     
 }
+
 
 #socials__img{
     width: 30px;
@@ -55,10 +55,17 @@ p{
     
 
 }
+.javascript{
+    width: 190px;
+}
+.java{
+    width: 200px;
+}
 img{
-    width: 100px;
+    width: 110px;
     
 }
+
 #project{
     width: 100px;
     border-radius: 50%;
