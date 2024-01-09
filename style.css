@@ -41,20 +41,21 @@ p{
 }
 #skills{
     text-align: center;
+    justify-content: space-between;
     
 }
 
-
 #socials__img{
-    width: 30px;
+    width: 100px;
     border-radius: 50%;
     border: 3px solid;
 }
-#socials__image{
-    
-    
-
+.email{
+    width: 150px;
+    border-radius: 35%;
+    border: 3px solid;
 }
+
 .javascript{
     width: 190px;
 }
@@ -81,4 +82,8 @@ img{
     width: 155px;
     border-radius: 50%;
     border: 2px solid;
+}
+#social__links{
+    text-align: center;
+    justify-content: space-around;
 }
