@@ -9,14 +9,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="navbar" id="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#social__links">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        &#9776;
+        </a>
+    </div>
     <div id="container_main">
         <section id="wrapper__hero" class="section__page">
-            <div id="info">
-                <h1>Jason Bangie Portfolio</h1>
-                <img id="profilePic" src="images/Jason.jpg" alt="my image">
-            </div>
 
-            <div>
+            <div id="about">
+                <div id="info">
+                    <h1>Jason Bangie Portfolio</h1>
+                    <img id="profilePic" src="images/Jason.jpg" alt="my image">
+                </div>
                 <hr>
                 <p id="bio">Trainee programmer | Passionate Developer | Problem Solver Extraordinaire | Committed to Excellence</p>
                 <hr>
@@ -53,7 +61,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
             <div id="links">
                 <a href=" https://jab47.github.io/basic_PacMan/" target="_blank"><img id="project" src="images/pacman.jpg" alt="pacman icon"></a>
@@ -71,5 +79,6 @@
             </div>
         </section>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
