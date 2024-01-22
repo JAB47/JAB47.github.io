@@ -1,84 +1,177 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="navbar" id="navbar">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#social__links">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        &#9776;
-        </a>
-    </div>
-    <div id="container_main">
-        <section id="wrapper__hero" class="section__page">
+<!DOCTYPE HTML>
 
-            <div id="about">
-                <div id="info">
-                    <h1>Jason Bangie Portfolio</h1>
-                    <img id="profilePic" src="images/Jason.jpg" alt="my image">
-                </div>
-                <hr>
-                <p id="bio">Trainee programmer | Passionate Developer | Problem Solver Extraordinaire | Committed to Excellence</p>
-                <hr>
+<html>
+	<head>
+		<title>Miniport by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#work">Skills</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/Jason.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Jason Bangie</strong>.</h1>
+							</header>
+							<p>I'm a young, ambitious developer on a journey to master my craft. Known for my problem-solving prowess and unwavering work ethic, I'm dedicated to becoming a trailblazer in the world of development through persistent practice and discipline.</p>
                 
-                <h2>About</h2>
-                <p>I'm a young, ambitious developer on a journey to master my craft. Known for my problem-solving prowess and unwavering work ethic, I'm dedicated to becoming a trailblazer in the world of development through persistent practice and discipline.</p>
-                
-                <h3>What Sets Me Apart:</h3>
-                <p> <b>Problem Solver:</b> I thrive on challenges and find joy in untangling complex problems, leveraging my skills to create efficient and elegant solutions. <br> 
-                <b>Hard Worker:</b> My commitment to excellence goes hand-in-hand with my strong work ethic. I believe that dedication and hard work are the keys to achieving greatness.</p>
+                            <h3>What Sets Me Apart:</h3>
+                            <p> <b>Problem Solver:</b> I thrive on challenges and find joy in untangling complex problems, leveraging my skills to create efficient and elegant solutions. <br> 
+                            <b>Hard Worker:</b> My commitment to excellence goes hand-in-hand with my strong work ethic. I believe that dedication and hard work are the keys to achieving greatness.</p>
 
-                <h3>Beyond the Code:</h3>
-                <p>Beyond the lines of code, I find inspiration in the harmony of music and the serenity of nature. These elements fuel my creative juices, providing a unique perspective that I bring into my development journey.</p>
+                            <h3>Beyond the Code:</h3>
+                            <p>Beyond the lines of code, I find inspiration in the harmony of music and the serenity of nature. These elements fuel my creative juices, providing a unique perspective that I bring into my development journey.</p>
 
-                <h3>Building a Better Future:</h3>
-                <p>My vision extends beyond coding; I aim to contribute to a better future for all. By integrating technology and creativity, I aspire to make a positive impact on the world and extend a helping hand to disadvantaged individuals daily.</p>
+                            <h3>Building a Better Future:</h3>
+                            <p>My vision extends beyond coding; I aim to contribute to a better future for all. By integrating technology and creativity, I aspire to make a positive impact on the world and extend a helping hand to disadvantaged individuals daily.</p>
 
-                <h3>Let's Connect:</h3>
-                <p>I'm eager to connect with fellow developers, industry enthusiasts, and anyone who shares a passion for creating positive change. Whether it's discussing coding challenges, sharing music recommendations, or exploring ways to make a difference, feel free to reach out.</p>
-                
+                            <h3>Let's Connect:</h3>
+                            <p>I'm eager to connect with fellow developers, industry enthusiasts, and anyone who shares a passion for creating positive change. Whether it's discussing coding challenges, sharing music recommendations, or exploring ways to make a difference, feel free to reach out.</p>
+							<a href="#work" class="button large scrolly">Learn about my skills</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-            </div>
-        </section>
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Here's some of the skills I know.</h2>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img id="logo" src="images/html.png" alt="html logo">
+								<h3>HTML</h3>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img id="logo" src="images/css.png" alt="css logo">
+								<h3>CSS</h3>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img id="logo" src="images/java.png" alt="java logo">
+								<h3>JAVA</h3>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img id="logo" src="images/Javascript.png" alt="javascript logo">
+								<h3>Javascript</h3>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See some of my recent projects and my resume.</a>
+					</footer>
+				</div>
+			</article>
 
-        <section class="section__page">
-            <div id="skills">
-                <h2>Skills</h2>
-                <ul id="images">
-                    <img src="images/css.png" alt="css logo">
-                    <img src="images/html.png" alt="html logo">
-                    <img class="java"  src="images/java.png" alt="java logo">
-                    <img class="javascript" src="images/Javascript.png" alt="Javascript logo">
-                </ul>
-            </div>
-        </section>
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some of the projects I worked on recently and resume.</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href=" https://jab47.github.io/basic_PacMan/" target="_blank" class="image featured"><img class="project" src="images/pacman.jpg" alt="pacman image" /></a>
+								<h3><a href=" https://jab47.github.io/basic_PacMan/" target="_blank">Basic PacMan</a></h3>
+								<p>Basic PacMan game however not fully functional.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href=" https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FJAB47%2FMUB%2Fmain%2FMoneyTree%2520Presentation.pptx&wdOrigin=BROWSELINK" target="_blank" class="image featured"><img class="project" src="images/design thinking.jpg" alt="" /></a>
+								<h3><a href=" https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FJAB47%2FMUB%2Fmain%2FMoneyTree%2520Presentation.pptx&wdOrigin=BROWSELINK" target="_blank">MUB</a></h3>
+								<p>I worked on a FinTech solution during a design thinking program.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/JAB47/JasonBangieCV/blob/main/Jason%20Bangie%20CV%20%20(2024).pdf" target="_blank" class="image featured"><img class="project" src="images/resume icon.jpg" alt="resume icon" /></a>
+								<h3><a href="https://github.com/JAB47/JasonBangieCV/blob/main/Jason%20Bangie%20CV%20%20(2024).pdf" target="_blank">Resume</a></h3>
+								<p>This document contains my Resume for more information and references of me</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div id="links">
-                <a href=" https://jab47.github.io/basic_PacMan/" target="_blank"><img id="project" src="images/pacman.jpg" alt="pacman icon"></a>
-                <a href=" https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FJAB47%2FMUB%2Fmain%2FMoneyTree%2520Presentation.pptx&wdOrigin=BROWSELINK" target="_blank"><img id="design" src="images/design thinking.jpg" alt="design icon"></a>
-            </div>
-        </section>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Contact me.</h2>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="https://formspree.io/f/xgegovgw" target="_blank">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/jasonbangie" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/JAB47" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+							<hr />
+						</div>
+			</article>
 
-        <section id="section__page">
-            <div id="social__links">
-                <h2>Social links</h2>
-                <a href="https://www.linkedin.com/in/jasonbangie" target="_blank"> <img id="socials__img" src="images/linkedin.jpg" alt="linkedin image">Linkedin</a>
-                <a href="https://github.com/JAB47" target="_blank"><img id="socials__img" src="images/github.jpg" alt="github icon">Github</a>
-                <a href="mailto:JasonBangie45@capitecbank.co.za, Jason.Bangie@umuzi.org" target="_blank"><img class="email" src="images/gmail.jpg" alt="gmail icon">Email</a>
-                <a href="https://github.com/JAB47/JasonBangieCV/blob/main/Jason%20Bangie%20CV%20%20(2024).pdf" target="_blank"><img id="socials__img" src="images/resume icon.jpg" alt="resume icon">CV</a>
-            </div>
-        </section>
-    </div>
-    <script src="app.js"></script>
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
